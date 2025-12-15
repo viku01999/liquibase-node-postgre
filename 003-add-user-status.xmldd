@@ -1,0 +1,9 @@
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog">
+
+  <changeSet id="v3-add-status" author="vikas">
+    <addColumn tableName="users">
+      <column name="status" type="TEXT" defaultValue="ACTIVE"/>
+    </addColumn>
+  </changeSet>
+
+</databaseChangeLog>
