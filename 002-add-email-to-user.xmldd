@@ -1,9 +1,0 @@
-<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog">
-
-  <changeSet id="v2-add-email" author="vikas">
-    <addColumn tableName="users">
-      <column name="email" type="TEXT"/>
-    </addColumn>
-  </changeSet>
-
-</databaseChangeLog>
