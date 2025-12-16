@@ -2,7 +2,10 @@
 **Beginner → Advanced Guide**
 
 ## 1. What is Liquibase?
-Liquibase is a **database schema version control tool**.
+**Liquibase** is an open-source database version control and migration tool.  
+It allows you to **track, manage, and deploy database schema changes** in a structured and safe way.  
+
+*(For now, just focus on PostgreSQL. Integration with a backend project will be explained at the end.)*
 
 - Tracks database changes in files (XML / YAML / SQL / JSON)
 - Applies changes incrementally
