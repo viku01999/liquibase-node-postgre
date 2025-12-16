@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                        https://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.20.xsd">
+
+    <changeSet id="v3-add-status" author="vikas">
+        <addColumn tableName="users">
+            <column name="status" type="TEXT" defaultValue="ACTIVE"/>
+        </addColumn>
+
+        <rollback>
+            <dropColumn tableName="users" columnName="status"/>
+        </rollback>
+    </changeSet>
+
+</databaseChangeLog>
