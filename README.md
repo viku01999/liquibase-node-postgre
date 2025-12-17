@@ -366,6 +366,7 @@ Liquibase will automatically create a table called **DATABASECHANGELOG** in your
 liquibase history
 ```
 Example Output:
+
 ![Changelog history](/media/first_changelog.png)
 
 **Rollback Example**
@@ -474,13 +475,12 @@ liquibase rollbackCount 1
     </changeSet>
 
 </databaseChangeLog>
+```
 
 **Update the Master Changelog**
 ```xml
 <include file="002-add-email-to-user.xml" relativeToChangelogFile="true"/>
 ```
-
-**Update the Master Changelog**
 
 <include file="003-add-status-to-user.xml" relativeToChangelogFile="true"/>
 
@@ -499,6 +499,14 @@ liquibase history
 # Rollback the second changeset (If necessary)
 liquibase rollbackCount 1
 ```
+
+**View Change Log History**
+```bash
+liquibase history
+```
+
+Example Output:
+![Changelog history](/media/third_changelog.png)
 
 **Affect into DB**
 ![After applying v1](/media/db4.png)
@@ -528,6 +536,7 @@ liquibase rollback \
   --changeSetAuthor=vikas \
   --changeSetPath=003-add-status-to-user.xml
 ```
+
 
 
 ## Summary & Next Steps
