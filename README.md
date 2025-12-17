@@ -596,7 +596,7 @@ To become proficient and production-ready with Liquibase, the following topics s
 ### 📞 Need Help or Have Questions?
 If you face any issues or have queries, feel free to connect with me on **LinkedIn**:
 
-👉 [Connect with me on LinkedIn](www.linkedin.com/in/vikas-kumar-10b8822a9)
+👉 [Connect with me on LinkedIn](https://www.linkedin.com/in/vikas-kumar-10b8822a9)
 
 
 > _Let’s keep learning and improving database version control with Liquibase._
