@@ -21,8 +21,8 @@ wget https://www.oracle.com/in/java/technologies/downloads/#java21
 ### 2.2 Install postgres server
 visit https://www.postgresql.org/download/linux/ubuntu/
 
-### 2.3 I am uing ubuntu 25 vsersion
-I am uing ubuntu 25 you can do same for ubuntu 24
+### 2.3 I am using ubuntu 25 vsersion
+I am using ubuntu 25 you can do same for ubuntu 24
 
 ### 2.4 For DB visualization install pg admin4
 Install pg admin4
